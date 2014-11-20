@@ -3,8 +3,9 @@
 
 name:                betacode
 version:             0.1.0.0
-synopsis:            A codec for [beta code](http://en.wikipedia.org/wiki/Beta_Code).
--- description:         
+synopsis:            A codec for beta code (http://en.wikipedia.org/wiki/Beta_Code).
+category:            Text
+description:         A codec for beta code (http://en.wikipedia.org/wiki/Beta_Code).
 license:             Apache-2.0
 license-file:        LICENSE
 author:              Eric Rochester
@@ -45,4 +46,5 @@ test-suite betacode-specs
 
 source-repository this
   type:                git
+  tag:                 0.1.0.0
   location:            git://github.com/erochest/betacode.git
