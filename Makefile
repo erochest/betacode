@@ -31,6 +31,10 @@ run:
 # deploy:
 # prep and push
 
+release:
+	cabal check
+	cabal upload `cabal sdist | cut -f 2 -d:`
+
 hlint:
 	hlint *.hs src specs
 
