@@ -2,7 +2,7 @@
 -- documentation, see http://haskell.org/cabal/users-guide/
 
 name:                betacode
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            A codec for beta code (http://en.wikipedia.org/wiki/Beta_Code).
 category:            Text
 description:         A codec for beta code (http://en.wikipedia.org/wiki/Beta_Code).
